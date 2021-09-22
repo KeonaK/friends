@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friends
   get 'home/about'
   # the home route created is now our root homepage
   root "home#index"
